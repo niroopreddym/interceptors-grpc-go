@@ -1,0 +1,62 @@
+{
+	"id": "024f994d-1c5b-4a87-be5c-d6c5e6f3db23",
+	"brand": "Apple",
+	"name": "Macbook Air",
+	"cpu": {
+		"brand": "AMD",
+		"name": "Ryzen 5",
+		"number_of_cores": 3,
+		"number_of_threads": 5,
+		"min_ghz": 3.0659581251306216,
+		"max_ghz": 3.542496617962542
+	},
+	"ram": {
+		"value": "5",
+		"unit": "MEGABYTE"
+	},
+	"gpus": [
+		{
+			"brand": "NVIDIA",
+			"name": "RTX 3070",
+			"min_ghz": 1.4769628943171842,
+			"max_ghz": 1.6039848068022537,
+			"memory": {
+				"value": "2",
+				"unit": "MEGABYTE"
+			}
+		}
+	],
+	"storages": [
+		{
+			"driver": "SSD",
+			"memory": {
+				"value": "789",
+				"unit": "GIGABTE"
+			}
+		},
+		{
+			"driver": "HDD",
+			"memory": {
+				"value": "6",
+				"unit": "TERABYTE"
+			}
+		}
+	],
+	"screen": {
+		"size_inch": 15.82667,
+		"resolution": {
+			"width": 7233,
+			"height": 4069
+		},
+		"panel": "IPS",
+		"multi_touch": false
+	},
+	"keyboard": {
+		"layout": "QWERTZ",
+		"backlit": true
+	},
+	"weight_kg": 2.8404129862531664,
+	"price_usd": 1507.1039847514267,
+	"release_year": 2019,
+	"updated_at": "2021-08-31T10:54:03.056454200Z"
+}

@@ -1,0 +1,7 @@
+version: v1beta1
+build:
+  roots:
+    - proto
+    - third_party/grpc-gateway/protoc-gen-openapiv2
+    - third_party/grpc-gateway/third_party/googleapis
+  
