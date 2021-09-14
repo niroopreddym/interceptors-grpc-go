@@ -1,3 +1,5 @@
+.PHONY: gen clean server client test cert
+
 .PHONY: gen
 gen:
 	protoc --proto_path=proto proto/*.proto --plugin=EXECUTABLE --go_out=. 
@@ -18,6 +20,10 @@ bufgen:
 .PHONY: clean
 clean:
 	rm pb/*.go
+
+.PHONY: cert
+cert:
+	cd cert; ./gen.sh; cd ..
 
 .PHONY: server
 server:
